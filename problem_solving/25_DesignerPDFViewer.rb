@@ -9,7 +9,7 @@ def designerPdfViewer(h, word)
     index[alphabets[i]] = height
     i += 1
   end
-  return dimention = word.split(//).map{|letter| index[letter]}.max * word.length
+  return word.split(//).map{|letter| index[letter]}.max * word.length
 end
 
 p designerPdfViewer(h, word)
