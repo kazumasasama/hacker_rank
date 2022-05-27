@@ -1,6 +1,4 @@
-# this code returns correct answer but Hackerrank doesn't like it.
-
-arr = "5 4 4 2 2 8".split(" ").map{|length| length.to_i}
+arr = [5, 4, 4, 2, 2, 8]
 
 def cutTheSticks(arr)
   if arr.all?(arr[0])
@@ -16,7 +14,13 @@ def cutTheSticks(arr)
     end
   end
   count << arr.length
-  p count
+  i = 0
+  while i < count.length
+    p count[i]
+    i += 1
+  end
 end
 
-p cutTheSticks(arr)
+cutTheSticks(arr)
+
+# this code returns correct answer but Hackerrank's test code doesn't work correctly.
