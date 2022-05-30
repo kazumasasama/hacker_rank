@@ -23,6 +23,24 @@ def diagonalDifference(arr)
   return ltor - rtol
 end
 
+
+# twitter @MUSACODE_JPさんより。
+# Range.newは使ったことなかったので勉強になりました。
+# ループ内のインデックスの回し方も参考になりました。
+
+# def diagonalDifference(arr)
+#   ltor = 0
+#   rtol = 0
+#   for i in Range.new(0, arr.length - 1)
+#     ltor += arr[i][i]
+#     rtol += arr[i][arr.length - 1 - i]
+#   end
+#   return (ltor - rtol).abs
+# end
+
+p diagonalDifference(arr)
+
+
 # ====================
 
 # n * n マトリックスの左右斜めの合計の差を求める問題。
