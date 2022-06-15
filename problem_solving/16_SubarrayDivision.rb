@@ -27,3 +27,16 @@ def birthday(s, d, m)
 end
 
 p birthday(s, d, m)
+
+# # ====================
+# # 問題:
+#   1つのブロックの大きさが違うチョコレートを分配したい。
+#   m個連続したブロックの大きさの合計がdになる場合の数を返す問題。
+
+# # ポイント解説:
+#   Line 20:
+#     if s[(i...i + m)].sum == d
+
+#       s配列のインデックスをレンジで指定し、その合計がdと同じか比較している
+#       get ranged indices of values from s array then add up all the values to compare if it is equal to d value.
+# # ====================
