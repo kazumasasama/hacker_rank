@@ -15,6 +15,23 @@ end
 x1, v1, x2, v2 = 0, 2, 5, 3
 p kangaroo(x1, v1, x2, v2)
 
+# Twitter @MUSACODE_JPさんより
+# def kangaroo(x1, v1, x2, v2)
+#   xd = x2 - x1
+#   vd = v2 - v1
+#   if xd == 0 # 既に同じ位置にいる
+#     return "YES"
+#   elsif vd == 0 # 距離が変わらない
+#     return "NO"
+#   elsif xd * vd > 0 # 符号が同じ時は距離が開いていく
+#     return "NO"
+#   elsif xd.abs % vd.abs == 0
+#     return "YES"
+#   else
+#     return "NO"
+#   end
+# end
+
 # # ====================
 # 問題:
 #   二匹のカンガルーが一直線上に並び、それぞれのスタートポイントから同じ回数ジャンプし(カンガルー毎に飛距離が違う)、二匹のカンガルーが同じ地点に到達できる場合は "YES" を、追い越してしまった場合は "NO" を出力する。
