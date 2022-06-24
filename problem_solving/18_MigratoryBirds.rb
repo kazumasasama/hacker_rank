@@ -36,7 +36,7 @@ p migratoryBirds(arr)
 # # ====================
 #   Data preparation
 #     .split(" ")
-#       Remove all the spaces in the arr, store all the numbers into new array as string.
+#       Remove all the spaces in the string, store each numbers into new array as string.
 #     .map{|num| num.to_i}
 #       Convert all the values in the new array to integer
 
