@@ -6,13 +6,12 @@ function timeConversion(s) {
     if (hour == "12") {
       hour = "00"
     }
-    return `${hour}:${minute}:${second}`
   }else if (s.endsWith("PM")) {
     if (hour != "12") {
       hour = Number(hour) + 12
     }
-    return `${hour}:${minute}:${second}`
   }
+  return `${hour}:${minute}:${second}`
 }
 
 s = "12:05:45AM"
