@@ -18,7 +18,7 @@ end
 grades =[73, 67, 38, 33]
 gradingStudents(grades)
 
-# # ====================
+# ====================
 # 問題:
 #   与えられた点数とその直近の5の倍数の数値(5, 10, 15... etc)との差が3未満の時、点数を繰り上げて5の倍数にする。
 #   繰り上げはするけど繰り下げはない。
@@ -33,7 +33,7 @@ gradingStudents(grades)
   
 #   eachループを使って配列の値を一つずつ出力する。
 
-# # ====================
+# ====================
 # If the grade's first digit is equal to 3 or 8, add 2 to the grade, make it multiple of 5.
 # If the grade's first digit is equal to 4 or 9, add 1 to the grade, make it multiple of 5.
 # Just return the grade if it's less then 38.
