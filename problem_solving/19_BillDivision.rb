@@ -13,7 +13,7 @@ k = 1
 b = 12
 bonAppetit(bill, k, b)
 
-# # ====================
+# ====================
 # 問題:
 #   アナとブライアンが一緒に食事をし、自分が注文した分だけを払う割り勘にすることにした。
 #   ブライアンが請求書を確認してアナの払う分を伝えたが本当にあっているのかな?
@@ -38,7 +38,7 @@ bonAppetit(bill, k, b)
 #     できた配列の合計を半分にするとアナが払う金額が得られる。
 
 #     なぜかreturnではなく、putsでアウトプットしないとエラーで全テスト不合格になるので注意。
-# # ====================
+# ====================
 
 # bill -> Prices for all the orders
 # k    -> Index of a order Anna didn't eat
@@ -49,12 +49,12 @@ bonAppetit(bill, k, b)
 #   Make the array only contains the orders of both people ate.
 
 #   .delete_at
-#     This is a ruby's builtin method that take a value of index (number),
+#     This is method a ruby's builtin method that take a value of index (number),
 #     delete the value of index from the array.
 #     This is a destructive method. Be careful when you use this method.
 
 # Line 3: anna = bill.sum / 2
-#   Add up all the values in the bill array that is modified at the line 2,
-#   divide the sum in two, you'll get the value equally devide for Anna.
+#   Add up all the values in the bill array that was modified at the line 2,
+#   divide the sum in two, you'll get the value equally devided for Anna.
 
 # Use puts instead of return to output. Otherwise you won't pass any of test cases.
