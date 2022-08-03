@@ -41,6 +41,3 @@ p timeInWords(h, m)
 # # ====================
 # You can solve this problem by returning every possible patterns in if conditionals but let's use hash to make the code shorter and readable.
 # If the minutes is equal to or greater than 31, returning string's minutes should be difference of (60 - minutes), and hour should be increased by 1.
-
-# より良い書き方や間違いなどありましたらお知らせいただけると嬉しいです。
-# kaz.nyc.dev@gmail.com
