@@ -4,7 +4,6 @@ def encryption(s)
   if floor * ceil < s.length
     floor += 1
   end
-  loop_times = 0
   string = s
   while string.length % floor != 0
     string += "*"
